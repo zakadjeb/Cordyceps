@@ -224,7 +224,7 @@ namespace GetPorts
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            bool getport = false;
+            bool getport = default(bool);
 
             if (!DA.GetData(0, ref getport)) return;
 
