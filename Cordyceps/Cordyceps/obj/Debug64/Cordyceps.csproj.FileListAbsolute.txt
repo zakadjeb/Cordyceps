@@ -1,0 +1,6 @@
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\bin\Cordyceps.dll
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\bin\Cordyceps.pdb
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Debug64\Cordyceps.Properties.Resources.resources
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Debug64\Cordyceps.csproj.GenerateResource.Cache
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Debug64\Cordyceps.dll
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Debug64\Cordyceps.pdb
