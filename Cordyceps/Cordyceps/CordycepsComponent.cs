@@ -29,7 +29,7 @@ namespace Cordyceps
         {
             pManager.AddBooleanParameter("Open the port", "Open", "Opens the port", GH_ParamAccess.item, false);
             pManager.AddBooleanParameter("Starts the reading", "Start", "Starts reading the values from the Cordyceps", GH_ParamAccess.item, false);
-            pManager.AddTextParameter("COMport", "COMport", "Choose which port to read.", GH_ParamAccess.item, "No port");
+            pManager.AddTextParameter("COMport", "COMport", "Choose which port to read.", GH_ParamAccess.item);
             pManager.AddIntegerParameter("MaxValue", "MaxValue", "Adds a max value for all knobs.", GH_ParamAccess.item, 1000);
         }
 
@@ -53,15 +53,15 @@ namespace Cordyceps
         /// to store data in output parameters.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            bool Open = false;
-            bool Start = false;
-            string COMport = "COM6";
-            int maxValue = 1000;
+            bool Open = default(bool);
+            bool Start = default(bool);
+            string COMport = default(string);
+            int maxValue = default(int);
 
-            if (!DA.GetData(0, ref Open)) return;
-            if (!DA.GetData(1, ref Start)) return;
-            //if (!DA.GetData(2, ref COMport)) return;
-            if (!DA.GetData(3, ref maxValue)) return;
+            DA.GetData(0, ref Open);
+            DA.GetData(1, ref Start);
+            DA.GetData(2, ref COMport);
+            DA.GetData(3, ref maxValue);
 
             List<double> resultA = new List<double>();
             List<double> resultB = new List<double>();
@@ -73,7 +73,7 @@ namespace Cordyceps
 
             //List<bool> testList = new List<bool>();
 
-            System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort(COMport, 9600);
+            System.IO.Ports.SerialPort port = new System.IO.Ports.SerialPort(COMport, 9600); 
 
             if (Open == true)
             {
