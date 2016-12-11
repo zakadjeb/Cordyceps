@@ -4,3 +4,4 @@
 \\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Release\Cordyceps.csproj.GenerateResource.Cache
 \\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Release\Cordyceps.dll
 \\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Release\Cordyceps.pdb
+\\CREATE.AAU.DK\Users\zadj\Documents\Furniture\_ModuleKnobs\GH_Plugin\Arduino\Cordyceps Github\Cordyceps\Cordyceps\obj\Release\Cordyceps.csprojResolveAssemblyReference.cache

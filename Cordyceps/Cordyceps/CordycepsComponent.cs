@@ -167,7 +167,7 @@ namespace Cordyceps
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;
-                return new System.Drawing.Bitmap("c:/users/zadj/desktop/new_cordyceps.png");
+                return Cordyceps.Properties.Resources.new_cordyceps;
             }
         }
 
@@ -268,7 +268,7 @@ namespace GetPorts
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return new System.Drawing.Bitmap("C:/Users/zadj/Desktop/new_usb.png");
+                return Cordyceps.Properties.Resources.new_usb;
             }
         }
 
@@ -379,7 +379,7 @@ namespace SetCamera
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return new System.Drawing.Bitmap("C:/Users/zadj/Desktop/new_camera.png");
+                return Cordyceps.Properties.Resources.new_camera;
             }
         }
 
@@ -478,7 +478,7 @@ namespace getCapture
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return new System.Drawing.Bitmap("C:/Users/zadj/Desktop/new_capture.png");
+                return Cordyceps.Properties.Resources.new_capture;
 
             }
         }
@@ -490,7 +490,8 @@ namespace getCapture
         /// </summary>
         public override Guid ComponentGuid
         {
-            get { return new Guid("{c05b673a-5afb-4167-9a4e-cc1f82577f8d}"); }
+            get { return new Guid("FC62E1FB-DB0B-4D69-86A9-E2B72E0D0E44"); }
+
         }
     }
 }

@@ -77,6 +77,18 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_capture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_cordyceps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_usb.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

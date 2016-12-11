@@ -5,6 +5,14 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cordyceps", "Cordyceps\Cordyceps.csproj", "{2827D00B-7A0B-4227-90E2-386A0F7CF23E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B46DDDC9-05E4-4F23-BDF0-A65D1CA7079E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\zadj\Desktop\new_camera.png = C:\Users\zadj\Desktop\new_camera.png
+		C:\Users\zadj\Desktop\new_capture.png = C:\Users\zadj\Desktop\new_capture.png
+		C:\Users\zadj\Desktop\new_cordyceps.png = C:\Users\zadj\Desktop\new_cordyceps.png
+		C:\Users\zadj\Desktop\new_usb.png = C:\Users\zadj\Desktop\new_usb.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug32|Any CPU = Debug32|Any CPU
