@@ -63,9 +63,9 @@ namespace Cordyceps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap new_camera {
+        internal static System.Drawing.Bitmap camera {
             get {
-                object obj = ResourceManager.GetObject("new_camera", resourceCulture);
+                object obj = ResourceManager.GetObject("camera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Cordyceps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap new_capture {
+        internal static System.Drawing.Bitmap cordyceps {
             get {
-                object obj = ResourceManager.GetObject("new_capture", resourceCulture);
+                object obj = ResourceManager.GetObject("cordyceps", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Cordyceps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap new_cordyceps {
+        internal static System.Drawing.Bitmap usb {
             get {
-                object obj = ResourceManager.GetObject("new_cordyceps", resourceCulture);
+                object obj = ResourceManager.GetObject("usb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Cordyceps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap new_usb {
+        internal static System.Drawing.Bitmap videocamera {
             get {
-                object obj = ResourceManager.GetObject("new_usb", resourceCulture);
+                object obj = ResourceManager.GetObject("videocamera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

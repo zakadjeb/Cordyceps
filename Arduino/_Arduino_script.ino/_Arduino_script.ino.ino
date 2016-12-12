@@ -1,6 +1,4 @@
-  int outputValue0 = 0;
-  int outputValue1 = 0;
-  int outputValue2 = 0;
+
   int sentVal0 = 0;
   int sentVal1 = 0;
   int sentVal2 = 0;

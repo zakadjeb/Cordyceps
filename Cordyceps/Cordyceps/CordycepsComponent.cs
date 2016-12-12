@@ -16,7 +16,7 @@ namespace Cordyceps
         /// new tabs/panels will automatically be created.
         /// </summary>
         public CordycepsComponent()
-            : base("Cordyceps", "V0.08",
+            : base("Cordyceps", "Cordyceps",
                 "Reading the module/Cordycepting",
                 "Cordyceps", "Cordyceps")
         {
@@ -167,7 +167,7 @@ namespace Cordyceps
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;
-                return Cordyceps.Properties.Resources.new_cordyceps;
+                return Cordyceps.Properties.Resources.cordyceps;
             }
         }
 
@@ -195,9 +195,9 @@ namespace GetPorts
         /// new tabs/panels will automatically be created.
         /// </summary>
         public GetPortsComponent()
-            : base("GetPorts", "V0.08",
+            : base("GetPorts", "GetPorts",
                 "This component will check which ports are open",
-                "Cordyceps", "Cordyceps")
+                "Cordyceps", "Port Access")
         {
         }
 
@@ -268,7 +268,7 @@ namespace GetPorts
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.new_usb;
+                return Cordyceps.Properties.Resources.usb;
             }
         }
 
@@ -296,9 +296,9 @@ namespace SetCamera
         /// new tabs/panels will automatically be created.
         /// </summary>
         public SetCameraComponent()
-            : base("SetCamera", "V0.08",
+            : base("SetCamera", "SetCamera",
                 "This component will set the view in Perspective window",
-                "Cordyceps", "Cordyceps")
+                "Cordyceps", "Viewport")
         {
         }
 
@@ -379,7 +379,7 @@ namespace SetCamera
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.new_camera;
+                return Cordyceps.Properties.Resources.videocamera;
             }
         }
 
@@ -407,9 +407,9 @@ namespace getCapture
         /// new tabs/panels will automatically be created.
         /// </summary>
         public GetCaptureComponent()
-            : base("GetCapture", "V0.08",
+            : base("GetCapture", "GetCapture",
                 "This component will capture a screenshot of your current active view.",
-                "Cordyceps", "Cordyceps")
+                "Cordyceps", "Viewport")
         {
         }
 
@@ -478,7 +478,7 @@ namespace getCapture
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.new_capture;
+                return Cordyceps.Properties.Resources.camera;
 
             }
         }
