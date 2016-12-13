@@ -10,9 +10,9 @@ using Rhino.PlugIns;
 [assembly: AssemblyTitle("Cordyceps")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Aalborg University")]
+[assembly: AssemblyCompany("Zakaria Djebbara")]
 [assembly: AssemblyProduct("Cordyceps")]
-[assembly: AssemblyCopyright("Copyright © Aalborg University 2016")]
+[assembly: AssemblyCopyright("Copyright © Zakaria Djebbara 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
