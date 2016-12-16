@@ -18,7 +18,7 @@ namespace Cordyceps
             get
             {
                 //Return a 24x24 pixel bitmap to represent this GHA library.
-                return new System.Drawing.Bitmap("c:/users/zadj/desktop/new_cordyceps.png");
+                return Cordyceps.Properties.Resources.cordyceps;
             }
         }
         public override string Description
@@ -42,7 +42,7 @@ namespace Cordyceps
             get
             {
                 //Return a string identifying you or your company.
-                return "Aalborg University";
+                return "Zakaria Djebbara";
             }
         }
         public override string AuthorContact

@@ -5,7 +5,6 @@ using Rhino.Geometry;
 using System.Linq;
 using System.Text;
 
-
 namespace Cordyceps
 {
     public class CordycepsComponent : GH_Component

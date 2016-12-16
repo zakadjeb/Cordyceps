@@ -63,39 +63,9 @@ namespace Cordyceps.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap camera {
-            get {
-                object obj = ResourceManager.GetObject("camera", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cordyceps {
-            get {
-                object obj = ResourceManager.GetObject("cordyceps", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap usb {
             get {
                 object obj = ResourceManager.GetObject("usb", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap videocamera {
-            get {
-                object obj = ResourceManager.GetObject("videocamera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
