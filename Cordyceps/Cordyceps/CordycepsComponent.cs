@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Grasshopper.Kernel;
 using Rhino.Geometry;
+using System.Linq;
+using System.Text;
+
 
 namespace Cordyceps
 {
@@ -495,3 +497,32 @@ namespace getCapture
         }
     }
 }
+
+namespace checkLicense
+{
+    public class LicenseComponent : GH_AssemblyPriority
+    {
+        public LicenseComponent()
+        {
+        }
+        
+    
+    public override GH_LoadingInstruction PriorityLoad()
+    {
+    DateTime EndLicense = new DateTime(2017, 07, 15);
+    DateTime dateNow = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+
+        if(dateNow<=EndLicense){
+            Rhino.RhinoApp.WriteLine("Cordyceps loaded!");
+            Rhino.RhinoApp.WriteLine("License ends " + EndLicense.ToString("dd.MM.yyyy") + ". Written by Zakaria Djebbara.");
+            return GH_LoadingInstruction.Proceed;
+        }
+        else{
+            Rhino.RhinoApp.WriteLine("Cordyceps failed to load.");
+            Rhino.RhinoApp.WriteLine("Contact developer for renewal of license. License ended " + EndLicense.ToString("dd.MM.yyyy") + ".");
+            Rhino.UI.Dialogs.ShowMessageBox("Cordyceps not loaded..." + Environment.NewLine + "Contact developer for renewal of license. License ended " + EndLicense.ToString("dd.MM.yyyy") + ".", "Cordyceps Plugin");
+            return GH_LoadingInstruction.Abort;
+        }
+}
+}
+    }
