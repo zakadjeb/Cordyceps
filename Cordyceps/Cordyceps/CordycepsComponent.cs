@@ -269,7 +269,7 @@ namespace GetPorts
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.usb;
+                return Cordyceps.Properties.Resources.new_usb;
             }
         }
 

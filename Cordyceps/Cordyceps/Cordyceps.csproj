@@ -83,6 +83,7 @@
     <None Include="Resources\new_camera.png" />
     <None Include="Resources\new_cordyceps.png" />
     <None Include="Resources\new_videocamera.png" />
+    <None Include="Resources\new_usb.png" />
     <Content Include="Resources\usb.png" />
     <Content Include="Resources\videocamera.png" />
   </ItemGroup>
