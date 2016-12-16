@@ -80,6 +80,9 @@
   <ItemGroup>
     <Content Include="Resources\camera.png" />
     <Content Include="Resources\cordyceps.png" />
+    <None Include="Resources\new_camera.png" />
+    <None Include="Resources\new_cordyceps.png" />
+    <None Include="Resources\new_videocamera.png" />
     <Content Include="Resources\usb.png" />
     <Content Include="Resources\videocamera.png" />
   </ItemGroup>

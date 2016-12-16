@@ -18,7 +18,7 @@ namespace Cordyceps
             get
             {
                 //Return a 24x24 pixel bitmap to represent this GHA library.
-                return Cordyceps.Properties.Resources.cordyceps;
+                return Cordyceps.Properties.Resources.new_cordyceps;
             }
         }
         public override string Description

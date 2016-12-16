@@ -168,7 +168,7 @@ namespace Cordyceps
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;
-                return Cordyceps.Properties.Resources.cordyceps;
+                return Cordyceps.Properties.Resources.new_cordyceps;
             }
         }
 
@@ -380,7 +380,7 @@ namespace SetCamera
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.videocamera;
+                return Cordyceps.Properties.Resources.new_videocamera;
             }
         }
 
@@ -479,7 +479,7 @@ namespace getCapture
             {
                 // You can add image files to your project resources and access them like this:
                 //return Resources.IconForThisComponent;                
-                return Cordyceps.Properties.Resources.camera;
+                return Cordyceps.Properties.Resources.new_camera;
 
             }
         }
